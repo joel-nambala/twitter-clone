@@ -2,10 +2,10 @@
   "name": "twitter",
   "version": "1.0.0",
   "description": "twitter application clone",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "server": "live-server",
-    "wacth:sass": "node-sass sass/main.scss css/style.css -w",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "start": "npm-run-all --parallel server watch:sass"
   },
   "author": "joel nambala",

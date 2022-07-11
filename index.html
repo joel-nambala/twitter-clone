@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- CSS links -->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -12,5 +24,71 @@
     <script src="js/script.js"></script>
     <title>Twitter &mdash; Clone by Joel Nambala</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link"
+              ><i class="fa-brands fa-twitter nav__icon"></i
+            ></a>
+          </li>
+          <li class="nav__item active" data-nav="home">
+            <a href="#" class="nav__link"
+              ><i class="fa-solid fa-house nav__icon"></i>Home</a
+            >
+          </li>
+          <li class="nav__item" data-nav="explore">
+            <a href="#" class="nav__link"
+              ><i class="fa-solid fa-hashtag nav__icon"></i>Explore</a
+            >
+          </li>
+          <li class="nav__item" data-nav="notification">
+            <a href="#" class="nav__link"
+              ><i class="fa-solid fa-bell nav__icon"></i>Notifications</a
+            >
+          </li>
+          <li class="nav__item" data-nav="message">
+            <a href="#" class="nav__link"
+              ><i class="fa-solid fa-message nav__icon"></i>Messages</a
+            >
+          </li>
+          <li class="nav__item" data-nav="bookmark">
+            <a href="#" class="nav__link"
+              ><i class="fa-solid fa-bookmark nav__icon"></i>Bookmarks</a
+            >
+          </li>
+          <li class="nav__item" data-nav="list">
+            <a href="#" class="nav__link"
+              ><i class="fa-solid fa-list nav__icon"></i>Lists</a
+            >
+          </li>
+          <li class="nav__item" data-nav="profile">
+            <a href="#" class="nav__link"
+              ><i class="fa-solid fa-user nav__icon"></i>Profiles</a
+            >
+          </li>
+          <!-- <li class="nav__item">
+            <a href="#" class="nav__link"
+              ><i class="fa-solid fa-circle-ellipsis nav__icon"></i>More</a
+            >
+          </li> -->
+          <button class="btn btn-tweet">Tweet</button>
+        </ul>
+        <div class="nav__profile">
+          <img
+            src="img/profile.jpg"
+            alt="Joel Nambala"
+            class="nav__profile--img"
+          />
+          <section class="nav__profile--content">
+            <p class="nav__profile--name">Joel Nambala</p>
+            <p class="nav__profile--link">@joelnambala</p>
+          </section>
+        </div>
+      </nav>
+      <main class="content">Main content</main>
+      <aside class="aside">Aside</aside>
+    </div>
+  </body>
 </html>
