@@ -1,6 +1,6 @@
 # Twitter clone
 
-Twitter clone application. Imade this application using vanilla JavaScript and sass CSS library
+Twitter application. Imade this application using vanilla JavaScript and sass CSS library. This project is strictly for education purposes and advancement of my skills in HTML5, CSS3 and JavaScript.
 
 ## Available scripts
 
