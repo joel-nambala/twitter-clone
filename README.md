@@ -7,3 +7,5 @@ Twitter application. Imade this application using vanilla JavaScript and sass CS
 ### `npm install`
 
 Installs all the dependencies used in the project
+
+![Screen photo of the finished project](/twitter-chart-1.png?raw=true)

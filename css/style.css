@@ -25,7 +25,11 @@
   .nav__profile {
     display: flex;
     align-items: center;
-    margin-top: auto; }
+    margin-top: auto;
+    background-color: transparent;
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+    border-radius: 100px; }
     .nav__profile--img {
       height: 6.4rem;
       height: 6.4rem;
@@ -37,6 +41,8 @@
     .nav__profile--link {
       font-size: 1.2rem;
       color: #777; }
+    .nav__profile:hover {
+      background-color: #c4cdd4; }
 
 .nav__item.active {
   background-color: #c4cdd4;
