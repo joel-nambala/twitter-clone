@@ -1,3 +1,83 @@
+.aside {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow-y: scroll; }
+
+.search {
+  margin: 1.2rem 2.4rem;
+  position: relative; }
+  .search__input {
+    width: 100%;
+    padding: 1.2rem 3.2rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+    border: 1px solid #777;
+    border-radius: 100px; }
+    .search__input:focus {
+      outline: none; }
+  .search__icon {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    color: #777; }
+
+.trend {
+  margin: 1.2rem 2.4rem;
+  padding: 1.2rem 2.4rem;
+  background-color: #e7ebee;
+  border-radius: 1.1rem; }
+  .trend__heading {
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+    font-weight: 500; }
+  .trend__box:hover {
+    cursor: pointer; }
+  .trend__box:not(:last-child) {
+    margin-bottom: 1.4rem; }
+  .trend__location {
+    font-size: 1.2rem;
+    color: #777; }
+  .trend__title {
+    font-size: 1.4rem;
+    color: #444;
+    margin: 0.2rem 0; }
+  .trend__tweets {
+    color: #777;
+    font-size: 1.2rem; }
+
+.followers {
+  margin: 1.2rem 2.4rem;
+  padding: 1.2rem 2.4rem;
+  background-color: #e7ebee;
+  border-radius: 1.1rem;
+  margin-top: 1.8rem; }
+  .followers__heading {
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 1.8rem; }
+  .followers__profile {
+    display: flex;
+    align-items: center; }
+  .followers__photo {
+    height: 5.4rem;
+    width: 5.4rem;
+    border-radius: 50%;
+    margin-right: 1.2rem; }
+  .followers__profile:not(:last-child) {
+    margin-bottom: 1.4rem; }
+  .followers__name {
+    font-size: 1.4rem; }
+  .followers__username {
+    font-size: 1.2rem;
+    color: #777; }
+  .followers__btn {
+    margin-left: auto;
+    padding: 0.8rem 1.2rem !important;
+    font-size: 1.4rem !important; }
+
 .content {
   border-right: 1px solid #444;
   overflow-y: scroll; }
@@ -5,9 +85,14 @@
 .home {
   padding: 1.2rem 2.4rem;
   position: sticky;
-  top: 0; }
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
   .home__text {
     font-size: 1.8rem; }
+  .home__icon {
+    font-size: 1.6rem; }
 
 .tweet-form {
   display: flex;

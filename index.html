@@ -91,6 +91,7 @@
       <main class="content">
         <div class="home">
           <h2 class="home__text">Home</h2>
+          <i class="fa-solid fa-star home__icon"></i>
         </div>
         <form class="tweet-form">
           <img
@@ -309,7 +310,81 @@
           </div>
         </div>
       </main>
-      <aside class="aside">Aside</aside>
+      <aside class="aside">
+        <form class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search twitter"
+            required
+          />
+          <i class="fa-solid fa-magnifying-glass search__icon"></i>
+        </form>
+
+        <section class="trend">
+          <h2 class="trend__heading">Trends for you</h2>
+          <div class="trend__box">
+            <p class="trend__location">Trending in Kenya</p>
+            <p class="trend__title">Egerton University</p>
+            <p class="trend__tweets">3,400 tweets</p>
+          </div>
+          <div class="trend__box">
+            <p class="trend__location">Trending in Kenya</p>
+            <p class="trend__title">Kenyatta University</p>
+            <p class="trend__tweets">2,550 tweets</p>
+          </div>
+          <div class="trend__box">
+            <p class="trend__location">Trending in Kenya</p>
+            <p class="trend__title">Pastor T Mwangi</p>
+            <p class="trend__tweets">5,645 tweets</p>
+          </div>
+          <div class="trend__box">
+            <p class="trend__location">Trending in Kenya</p>
+            <p class="trend__title">Joel Nambala</p>
+            <p class="trend__tweets">999 tweets</p>
+          </div>
+          <div class="trend__box">
+            <p class="trend__location">Trending in Kenya</p>
+            <p class="trend__title">IEBC</p>
+            <p class="trend__tweets">3,467 tweets</p>
+          </div>
+          <div class="trend__box">
+            <p class="trend__location">Trending in Kenya</p>
+            <p class="trend__title">Elections 2022</p>
+            <p class="trend__tweets">5,432 tweets</p>
+          </div>
+        </section>
+
+        <section class="followers">
+          <h2 class="followers__heading">Who to follow</h2>
+          <div class="followers__box">
+            <div class="followers__profile">
+              <img
+                src="img/tweet-7.jpg"
+                alt="Joe Lance"
+                class="followers__photo"
+              />
+              <div class="followers__details">
+                <p class="followers__name">Joe Lance</p>
+                <p class="followers__username">@joelance</p>
+              </div>
+              <button class="btn followers__btn btn-folow">follow</button>
+            </div>
+            <div class="followers__profile">
+              <img
+                src="img/tweet-8.jpg"
+                alt="Joe Lance"
+                class="followers__photo"
+              />
+              <div class="followers__details">
+                <p class="followers__name">Sarah Smith</p>
+                <p class="followers__username">@jsmith45</p>
+              </div>
+              <button class="btn followers__btn btn-folow">follow</button>
+            </div>
+          </div>
+        </section>
+      </aside>
     </div>
   </body>
 </html>
